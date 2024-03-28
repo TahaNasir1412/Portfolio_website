@@ -1,0 +1,35 @@
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.interest-animation h1 {
+    animation: slideIn 7s ease forwards;
+}.pop-out:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+h1 {
+    color: #1f2562;
+}
+.fs-4 {
+    color: #1f2562;
+    
+   }
+   .nav-pills .nav-link {
+       color: #1f2562;
+       font-size: 20px;
+       font-weight:500 ;
+   }
+.form-group{
+    margin: 30px;
+    
+ 
+}
